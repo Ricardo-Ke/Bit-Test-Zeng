@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./g2.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="hist">
+      
+    </div>
+  </div>
+
+  <script>
+    window.onload = function() {
+      var JSONP = document.createElement('script');
+      JSONP.type = 'text/javascript';
+      JSONP.src = 'http://localhost:8001?callback=grayHistDraw';
+      document.getElementsByTagName('body')[0].appendChild(JSONP);
+
+    }
+
+    function grayHistDraw(data) {
+      data = JSON.parse(JSON.stringify(data));
+      var maxInd = 0;
+      for(var i = 0, max=data[0]['y'];i < data.length;i++) {
+        if (data[i]['y'] > max) {
+          max = data[i]['y'];
+          maxInd = i;
+        }
+      }
+      data.splice(maxInd, 1);
+      var chart = new G2.Chart({
+        id: 'hist',
+        width: 1200,
+        height: 600
+      })
+      chart.source(data);
+      chart.interval().position('x*y').color('x').tooltip('x*y');
+      chart.render();
+    }
+  </script>
+</body>
+</html>
