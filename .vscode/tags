@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bmp	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^class Bmp(BmpFileHeader, BmpStructHeader):$/;"	kind:class	line:30
+Bmp.py	../SimpleBmpResolver/zyp/bmp/Bmp.py	1;"	kind:file	line:1
+BmpFileHeader	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^class BmpFileHeader:$/;"	kind:class	line:6
+BmpFileHeader	../bmp.py	/^class BmpFileHeader:$/;"	kind:class	line:19
+BmpStructHeader	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^class BmpStructHeader:$/;"	kind:class	line:15
+BmpStructHeader	../bmp.py	/^class BmpStructHeader:$/;"	kind:class	line:31
+__init__	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def __init__(self):$/;"	kind:member	line:16
+__init__	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def __init__(self):$/;"	kind:member	line:31
+__init__	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__	../bmp.py	/^  def __init__(self, fileName):$/;"	kind:member	line:20
+__init__	../bmp.py	/^  def __init__(self, filename):$/;"	kind:member	line:32
+__init__.py	../SimpleBmpResolver/zyp/__init__.py	1;"	kind:file	line:1
+__init__.py	../SimpleBmpResolver/zyp/bmp/__init__.py	1;"	kind:file	line:1
+__nni	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def __nni(self, width, height):$/;"	kind:member	line:116
+__rotate	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def __rotate(self, degree):$/;"	kind:member	line:162
+bfh	../bmp.py	/^bfh = BmpStructHeader('.\/pcrbmp.bmp')/;"	kind:variable	line:59
+binascii	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^import binascii$/;"	kind:namespace	line:2
+bit_count	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def bit_count(self):$/;"	kind:member	line:47
+bmp.py	../bmp.py	1;"	kind:file	line:1
+bytes_to_i	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^def bytes_to_i(mbytes, byteorder='little'):$/;"	kind:function	line:199
+generate	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def generate(self, file_name):$/;"	kind:member	line:87
+graying	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def graying(self):$/;"	kind:member	line:140
+height	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def height(self):$/;"	kind:member	line:42
+i_to_bytes	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^def i_to_bytes(number, length, byteorder='little'):$/;"	kind:function	line:195
+math	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^import math$/;"	kind:namespace	line:3
+parse	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def parse(self, file_name):$/;"	kind:member	line:55
+resize	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def resize(self, width, height):$/;"	kind:member	line:112
+rotate	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def rotate(self):$/;"	kind:member	line:155
+struct	../bmp.py	/^import struct$/;"	kind:namespace	line:3
+sys	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^import sys$/;"	kind:namespace	line:1
+width	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def width(self):$/;"	kind:member	line:38
+width_step	../SimpleBmpResolver/zyp/bmp/Bmp.py	/^    def width_step(self):$/;"	kind:member	line:51
